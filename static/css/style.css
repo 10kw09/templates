@@ -1,0 +1,442 @@
+.open-position {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.open-position .div {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1129px;
+  position: relative;
+}
+
+.open-position .text-wrapper {
+  position: absolute;
+  width: 378px;
+  top: 144px;
+  left: 183px;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #571111;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.open-position .line {
+  position: absolute;
+  width: 1px;
+  height: 450px;
+  top: 239px;
+  left: 182px;
+  object-fit: cover;
+}
+
+.open-position .text-wrapper-2 {
+  position: absolute;
+  width: 478px;
+  top: 238px;
+  left: 191px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.open-position .pyeon-lab-michigan {
+  position: absolute;
+  width: 1020px;
+  top: 355px;
+  left: 191px;
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.open-position .span {
+  font-family: "Inter", Helvetica;
+  font-weight: 500;
+  color: #000000;
+  font-size: 25px;
+  letter-spacing: 0;
+}
+
+.open-position .text-wrapper-3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.open-position .text-wrapper-4 {
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.open-position .overlap {
+  position: absolute;
+  width: 1440px;
+  height: 88px;
+  top: 0;
+  left: 0;
+}
+
+.open-position .component {
+  position: absolute;
+  width: 1440px;
+  height: 88px;
+  top: 0;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.open-position .publication {
+  display: flex;
+  width: 97px;
+  height: 86px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px 5px;
+  position: absolute;
+  top: 1px;
+  left: 694px;
+  background-color: #ffffff;
+}
+
+.open-position .text-wrapper-5 {
+  position: relative;
+  width: fit-content;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.open-position .news {
+  display: flex;
+  width: 54px;
+  height: 86px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px 5px;
+  position: absolute;
+  top: 1px;
+  left: 807px;
+  background-color: #ffffff;
+}
+
+.open-position .research {
+  display: flex;
+  width: 83px;
+  height: 86px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px 5px;
+  position: absolute;
+  top: 1px;
+  left: 601px;
+  background-color: #ffffff;
+  overflow-x: scroll;
+}
+
+.open-position .contact {
+  display: flex;
+  width: 74px;
+  height: 86px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 27px 5px 24px;
+  position: absolute;
+  top: 0;
+  left: 1175px;
+  background-color: #ffffff;
+}
+
+.open-position .team {
+  display: flex;
+  width: 53px;
+  height: 86px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px 5px;
+  position: absolute;
+  top: 1px;
+  left: 877px;
+  background-color: #ffffff;
+}
+
+.open-position .gallery {
+  display: flex;
+  width: 65px;
+  height: 86px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px 5px;
+  position: absolute;
+  top: 1px;
+  left: 946px;
+  background-color: #ffffff;
+}
+
+.open-position .div-wrapper {
+  display: flex;
+  width: 127px;
+  height: 86px;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  padding: 25px 5px;
+  position: absolute;
+  top: 0;
+  left: 1029px;
+  background-color: #ffffff;
+}
+
+.open-position .group {
+  position: absolute;
+  width: 237px;
+  height: 77px;
+  top: 9px;
+  left: 183px;
+}
+
+.open-position .pyeon-lab-logo {
+  position: absolute;
+  width: 73px;
+  height: 77px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.open-position .overlap-group {
+  position: absolute;
+  width: 154px;
+  height: 49px;
+  top: 14px;
+  left: 79px;
+}
+
+.open-position .text-wrapper-6 {
+  position: absolute;
+  width: 154px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #404040;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.open-position .p {
+  position: absolute;
+  width: 148px;
+  top: 36px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 600;
+  color: #404040;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.open-position .overlap-2 {
+  position: absolute;
+  width: 1062px;
+  height: 373px;
+  top: 746px;
+  left: 189px;
+}
+
+.open-position .group-2 {
+  position: absolute;
+  width: 1062px;
+  height: 347px;
+  top: 0;
+  left: 0;
+}
+
+.open-position .group-3 {
+  position: absolute;
+  width: 102px;
+  height: 136px;
+  top: 72px;
+  left: 960px;
+}
+
+.open-position .text-wrapper-7 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: var(--heading-6-font-family);
+  font-weight: var(--heading-6-font-weight);
+  color: #000000;
+  font-size: var(--heading-6-font-size);
+  letter-spacing: var(--heading-6-letter-spacing);
+  line-height: var(--heading-6-line-height);
+  white-space: nowrap;
+  font-style: var(--heading-6-font-style);
+}
+
+.open-position .menu-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 33px;
+  left: 8px;
+}
+
+.open-position .menu-item-2 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: var(--other-menu-m-font-family);
+  font-weight: var(--other-menu-m-font-weight);
+  color: #000000;
+  font-size: var(--other-menu-m-font-size);
+  letter-spacing: var(--other-menu-m-letter-spacing);
+  line-height: var(--other-menu-m-line-height);
+  white-space: nowrap;
+  font-style: var(--other-menu-m-font-style);
+}
+
+.open-position .menu-item-3 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 62px;
+  left: 8px;
+}
+
+.open-position .menu-item-4 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 91px;
+  left: 8px;
+}
+
+.open-position .menu-item-5 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  position: absolute;
+  top: 120px;
+  left: 8px;
+}
+
+.open-position .group-4 {
+  position: absolute;
+  width: 102px;
+  height: 136px;
+  top: 70px;
+  left: 634px;
+}
+
+.open-position .group-5 {
+  position: absolute;
+  width: 102px;
+  height: 136px;
+  top: 72px;
+  left: 287px;
+}
+
+.open-position .group-6 {
+  position: absolute;
+  width: 102px;
+  height: 136px;
+  top: 70px;
+  left: 0;
+}
+
+.open-position .overlap-group-2 {
+  position: absolute;
+  width: 716px;
+  height: 37px;
+  top: 310px;
+  left: 337px;
+}
+
+.open-position .menu {
+  display: flex;
+  width: 716px;
+  height: 37px;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.open-position .menu-item-6 {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 8px;
+  position: relative;
+  flex: 0 0 auto;
+  margin-top: -1.5px;
+  margin-bottom: -1.5px;
+}
+
+.open-position .text-wrapper-8 {
+  position: absolute;
+  top: 10px;
+  left: 161px;
+  font-family: var(--body-s-font-family);
+  font-weight: var(--body-s-font-weight);
+  color: #000000;
+  font-size: var(--body-s-font-size);
+  letter-spacing: var(--body-s-letter-spacing);
+  line-height: var(--body-s-line-height);
+  white-space: nowrap;
+  font-style: var(--body-s-font-style);
+}
+
+.open-position .rectangle {
+  top: 0;
+  position: absolute;
+  width: 1060px;
+  height: 5px;
+  left: 0;
+}
+
+.open-position .img {
+  top: 280px;
+  position: absolute;
+  width: 1060px;
+  height: 5px;
+  left: 0;
+}
+
+.open-position .group-7 {
+  position: absolute;
+  width: 237px;
+  height: 77px;
+  top: 296px;
+  left: 2px;
+}
