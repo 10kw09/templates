@@ -1,103 +1,92 @@
-<!DOCTYPE html>
-{% load static %}
-
-{% block css %}
-<link rel="stylesheet" type="text/css" href="{% static 'css/chatbot.css' %}">
-{% endblock %}
-
-{% block script %}
-{% endblock %}
-<html>
-<head>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="{% static 'css/globals.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/styleguide.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="open_positions.css" />
   </head>
   <body>
-    <div class="open-position">
-      <div class="div">
-        <div class="text-wrapper">Open Positions</div>
-        <img class="line" src="{% static 'img/line-13.svg' %}" />
-        {% for position in open_positions %}
-        <div class="text-wrapper-2">{{ position.position }}</div>
-        <p class="pyeon-lab-michigan">
-          <span class="span">{{ position.location }}<br /></span>
-          <span class="text-wrapper-3">{{ position.description }}</span>
-          <a href="mailto:dpyeon@msu.edu" target="_blank" rel="noopener noreferrer"
-            ><span class="text-wrapper-4">dpyeon@msu.edu</span></a
-          >
-          <span class="text-wrapper-3">.</span>
-        </p>
-        {% endfor %}
-        <div class="overlap">
-          <div class="component">
-            <div class="publication"><div class="text-wrapper-5">Publication</div></div>
-            <div class="news"><div class="text-wrapper-5">News</div></div>
-            <div class="research"><div class="text-wrapper-5">Research</div></div>
-            <div class="contact"><div class="text-wrapper-5">Contact</div></div>
-            <div class="team"><div class="text-wrapper-5">Team</div></div>
-            <div class="gallery"><div class="text-wrapper-5">Gallery</div></div>
-            <div class="div-wrapper"><div class="text-wrapper-5">Open positions</div></div>
+    <div class="header">
+      <nav class="navbar">
+          <div class="brand">
+              <img src="../../img/pyeon-lab-logo-3-1-1-2.png" class="logo">
+              <div class="brand-info">
+                  <span class="title">PYEON LAB</span>
+                  <span class="subtitle">VIRUS | CANCER | IMMUNITY</span>
+                </div>
           </div>
-          <div class="group">
-            <img class="pyeon-lab-logo" src="{% static 'img/pyeon-lab-logo-3-1-1-2.png' %}" />
-            <div class="overlap-group">
-              <div class="text-wrapper-6">PYEON LAB</div>
-              <p class="p">VIRUS l CANCER l IMMUNITY</p>
-            </div>
+          <ul class="nav-menu">
+            <li><a href="#">Publication</a></li>
+            <li><a href="#">News</a></li>
+            <li><a href="#">Research</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Team</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Open positions</a></li>
+          </ul>
+          <div class="dropdown-icon">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
           </div>
-        </div>
-        <div class="overlap-2">
-          <div class="group-2">
-            <div class="group-3">
-              <div class="text-wrapper-7">Column One</div>
-              <div class="menu-item"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-3"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-4"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-5"><div class="menu-item-2">Twenty One</div></div>
-            </div>
-            <div class="group-4">
-              <div class="text-wrapper-7">Column One</div>
-              <div class="menu-item"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-3"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-4"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-5"><div class="menu-item-2">Twenty One</div></div>
-            </div>
-            <div class="group-5">
-              <div class="text-wrapper-7">Column One</div>
-              <div class="menu-item"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-3"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-4"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-5"><div class="menu-item-2">Twenty One</div></div>
-            </div>
-            <div class="group-6">
-              <div class="text-wrapper-7">Column One</div>
-              <div class="menu-item"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-3"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-4"><div class="menu-item-2">Twenty One</div></div>
-              <div class="menu-item-5"><div class="menu-item-2">Twenty One</div></div>
-            </div>
-            <div class="overlap-group-2">
-              <div class="menu">
-                <div class="menu-item-6"><div class="menu-item-2">Eleven</div></div>
-                <div class="menu-item-6"><div class="menu-item-2">Twelve</div></div>
-                <div class="menu-item-6"><div class="menu-item-2">Thirteen</div></div>
-              </div>
-              <p class="text-wrapper-8">CompanyName @ 202X. All rights reserved.</p>
-            </div>
-            <img class="rectangle" src="{% static 'img/rectangle-11.svg' %}" />
-            <img class="img" src="{% static 'img/rectangle-11.svg' %}" />
-          </div>
-          <div class="group-7">
-            <img class="pyeon-lab-logo" src="{% static 'img/pyeon-lab-logo-3-1-1-2.png' %}" />
-            <div class="overlap-group">
-              <div class="text-wrapper-6">PYEON LAB</div>
-              <p class="p">VIRUS l CANCER l IMMUNITY</p>
-            </div>
-          </div>
-        </div>
-      </div>
+        </nav>
+    </div> 
+
+    <header class="align-center">
+      <h1 class="title2">Open Positions</h1>
+      <div class="underline"></div>
+      <br/>
+      <br/>
+      <br/>
+    </header>
+
+    <div class="how-section1">
+        <h2> Postdoctoral Fellow</h2>
+        <br/>
+        <h4>Pyeon Lab</h4>
+        <h4>Michigan State University</h4>
+        <h4>An NIH-funded postdoctoral position is available to study virus-host interactions in human papillomavirus (HPV) infection and oncogenesis in the Department of Microbiology and Molecular Genetics at the Michigan State University. A successful candidate will focus on studying host immune dysregulation during HPV-associated cancer progression using in vitro and in vivo models as well as human specimens. Candidates must have a PhD, MD or equivalent degree in virology, immunology, cancer biology, or related fields and published work in peer reviewed journals along with excellent communication skills. Expertise in flow cytometry, cancer mouse models, bioinformatics, and/or translational/preclinical research is desirable. Salary is commensurate with experience and at NIH postdoctoral stipend levels.
+            To apply please send a cover letter, CV, and contact information of three professional references to Dr. Dohun Pyeon – dpyeon@msu.edu.</h4>
     </div>
-  </body>
-</html>
+
+    <div class="footer">
+        <!-- <div class="underline"></div> -->
+        <br/>
+        <div class="footer-image">
+            <img src="../../img/msu_logo.png" class="footer-img rounded" alt="...">
+            <img src="../../img/chm_logo.png" class="footer-img rounded" alt="...">
+            <img src="../../img/cancer_logo.png" class="footer-img rounded" alt="...">
+            <img src="../../img/mgi_logo.png" class="footer-img rounded" alt="...">
+            <img src="../../img/ford.png" class="footer-img rounded" alt="...">
+        </div>
+        <br/>
+            <div class="bottom-brand">
+                <img src="../../img/pyeon-lab-logo-3-1-1-2.png" class="logo">
+                <div class="brand-info">
+                    <span class="title">PYEON LAB</span>
+                    <span class="subtitle">VIRUS | CANCER | IMMUNITY</span>
+                  </div>
+            </div>
+            <ul class="bottom-nav-menu">
+              <li><a href="#">Publication</a></li>
+              <li><a href="#">News</a></li>
+              <li><a href="#">Research</a></li>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Team</a></li>
+              <li><a href="#">Gallery</a></li>
+              <li><a href="#">Open positions</a></li>
+            </ul>
+            <div class="bottom-dropdown-icon">
+              <div class="line"></div>
+              <div class="line"></div>
+              <div class="line"></div>
+            </div>
+      </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </body>
+    </html>
+    

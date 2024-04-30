@@ -30,16 +30,16 @@
 .open-position .line {
   position: absolute;
   width: 1px;
-  height: 450px;
-  top: 239px;
+  height: 500px;
+  top: 212px;
   left: 182px;
   object-fit: cover;
 }
 
 .open-position .text-wrapper-2 {
-  position: absolute;
+  position: relative;
   width: 478px;
-  top: 238px;
+  top: 200px;
   left: 191px;
   font-family: "Inter", Helvetica;
   font-weight: 500;
@@ -51,17 +51,18 @@
 }
 
 .open-position .pyeon-lab-michigan {
-  position: absolute;
+  position: relative;
   width: 1020px;
-  top: 355px;
+  top: 200px;
   left: 191px;
   font-family: "Inter", Helvetica;
   font-weight: 500;
   color: #000000;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 0;
   line-height: normal;
 }
+[포지션 부분 변경]
 
 .open-position .span {
   font-family: "Inter", Helvetica;
@@ -72,7 +73,7 @@
 }
 
 .open-position .text-wrapper-3 {
-  font-size: 20px;
+  font-size: 16px;
   margin-bottom: 20px;
 }
 
